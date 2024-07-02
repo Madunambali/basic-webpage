@@ -4,106 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mbali Maduna's Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            font-size: x-large;
+            background-image: url(coding.jpg)
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .profile {
+            text-align: center;
+        }
+        
+        
+        .btn-flex {
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-flex:hover {
+            background-color: #45a049;
+        }
+        
+        .btn-grid {
+            margin-top: 20px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-grid:hover {
+            background-color: #0073e6;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Mbali Maduna</h1>
-        
-     <img src="isthombe.jpeg" alt="Mbali Maduna's picture" width="1500px">
-    </header>
-
-    <section class="city">
-        <h2>City I Would Like to Visit</h2>
-        <img src="Zanzibar.jpg" alt="Zanzibar">
-        <p>I would like to visit Zanzibar. Zanzibar has always intrigued me with its rich cultural heritage, beautiful beaches, and vibrant history. The island offers a unique blend of African, Arab, and European influences, making it a fascinating destination to explore. From the historic Stone Town to the pristine shores, Zanzibar promises an unforgettable experience filled with adventure and relaxation.</p>
-        
-    </section>
-
-    <section class="language">
-        <h2>Foreign Language I Would Like to Learn</h2>
-        <p>I would like to learn Swahili. Swahili is a beautiful and widely spoken language in East Africa. Learning Swahili would not only enhance my communication skills but also deepen my understanding of the rich cultures and traditions of the Swahili-speaking regions.</p>
-        <table border="1">
-            <tr>
-                <th>English</th>
-                <th>Swahili</th>
-            </tr>
-            <tr>
-                <td>Hello</td>
-                <td>Habari</td>
-            </tr>
-            <tr>
-                <td>Thank you</td>
-                <td>Asante</td>
-            </tr>
-            <tr>
-                <td>Please</td>
-                <td>Tafadhali</td>
-            </tr>
-            <tr>
-                <td>Yes</td>
-                <td>Ndio</td>
-            </tr>
-            <tr>
-                <td>No</td>
-                <td>Hapana</td>
-            </tr>
-        </table>
-    </section>
-
-    <section class="subjects">
-        
-        <h2>Favourite Subjects</h2>
-        <p>The following subjects are my favourite so far for the University of Johannesburg Accenture programme.</p>
-        <div>
-            <h3>FULL STACK WEB DEVELOPMENT FOR 4IR</h3>
-            <img src="FullStackWebDev.jpg" alt="Full Stack Web Development for 4IR">
-        
-            <p>This has been my favourite subject so far, because of the skills I have gotten from the program. The program focuses on equipping learners with the skills and knowledge necessary to develop web applications across the entire technology stack, in the context of the Fourth Industrial Revolution (4IR).</p>
+    <div class="container">
+        <div class="profile">
+            <h1>Mbali Maduna</h1>
+          
         </div>
-
-        <div>
-            <h3>AGILE RAPID SKILLS ACQUISITION</h3>
-            <img src="Agile.jpg" alt="Agile Rapid Skills Acquisition">
-        
-            <p>This subject focuses on teaching learners how to quickly acquire new skills and adapt to changing requirements in an agile and efficient manner.</p>
-        </div>
-
-        <div>
-            <h3>ENGINEERING BUSINESS SYSTEMS FOR 4IR</h3>
-            <img src="systemsEngineering.jpg" alt="Engineering Business Systems">
-       
-            <p>This subject is designed to prepare students to design, implement, and manage business systems within the context of the Fourth Industrial Revolution (4IR).</p>
-        </div>
-    
-    </section>
-
-
-    <section class="history">
-        
-        <h2>Historical Places in Johannesburg</h2>
-        <p>The following are my chosen historical places in Gauteng, Johannesburg. These are fun, educational, and recreation places you can visit.</p>
-        <div>
-            <h3>Museum Africa</h3>
-            <img src="MuseumAfrica.jpeg" alt="Museum Africa">
-       
-            <p>The museum's collections cover a wide range of topics, including archaeology, ethnography, social history, and photography. It showcases artifacts and exhibits that explore the cultural diversity and rich heritage of South Africa, with a particular focus on the history of Johannesburg and its people.</p>
-        </div>
-
-        <div>
-            <h3>Gold Reef City</h3>
-            <img src="GoldReefCity.jpg" alt="Gold Reef City">
-    
-            <p>Gold Reef City is an iconic amusement park and entertainment complex located in Johannesburg, South Africa, built around the site of a former gold mine. One of the most fascinating aspects of Gold Reef City is that it's built on the grounds of an authentic 19th-century gold mine. Visitors can experience a glimpse into the past by exploring the underground mine tour, where they can witness the conditions and challenges faced by miners during the gold rush era.</p>
-        </div>
-
-        <div>
-            <h3>Soweto Towers</h3>
-            <img src="SowetoTowers.jpg" alt="Soweto Towers">
-        
-            <p>The Soweto Towers, also known as the Orlando Towers, were originally built in the 1950s as part of the Orlando Power Station. The towers served as cooling towers for a coal-fired power plant that supplied electricity to Johannesburg and the surrounding areas. The Soweto Towers have become a popular destination for adventure seekers, offering the opportunity to experience the adrenaline rush of bungee jumping from a height of 100 meters (approximately 328 feet). It's one of the highest bungee jumps in the world from a man-made structure and provides breathtaking views of Soweto and Johannesburg. The towers have been featured in various films, documentaries, and media productions, both locally and internationally.</p>
-        </div>
-    
-    </section>
+        <a href="./my_web.html" class="btn-flex">Flexbox</a>
+        <a href="./web-page index.html" class="btn-grid">Simple Grid</a>
+    </div>
 </body>
 </html>
